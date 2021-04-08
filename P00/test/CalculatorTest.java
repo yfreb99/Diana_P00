@@ -60,11 +60,11 @@ public class CalculatorTest {
 	@Test
 	public void testDivideWithNon0Denominator () {
 		//fail("Not yet implemented");
-		int a = 6666;
+		int a = 0;
 		int b = 3333;
 		 Calculator cal = new Calculator();
 		 int actual = cal.divide(a, b);
-		 int expected = 2;
+		 int expected = 0;
 		 assertEquals (actual, expected);
 	}
 	@Test

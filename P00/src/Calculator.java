@@ -14,12 +14,13 @@ public class Calculator {
 		
 	}
 	public int divide (int a, int b) {
-		if (b!= 0) 
-			return a / b;
-		else {
+		if (b != 0)
+            return (a / b); // throw Exception
+		else 
+		{
 			return 0;
-
 		}
-		
+
+	
 	}
 }
