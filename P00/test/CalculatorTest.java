@@ -37,12 +37,12 @@ public class CalculatorTest {
 	}
 	
 	@Test
-	public void testSubstract() {
+	public void testSubtract() {
 		//fail("Not yet implemented");
 		int a = 9876;
 		int b = 4321;
 		 Calculator cal = new Calculator();
-		 int actual = cal.substract(a, b);
+		 int actual = cal.subtract(a, b);
 		 int expected = 5555;
 		 assertEquals (actual, expected);
 	}
