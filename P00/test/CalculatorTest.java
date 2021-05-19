@@ -30,8 +30,10 @@ public class CalculatorTest {
 		//fail("Not yet implemented");
 		int a = 1234;
 		int b = 8765;
+		
 		 Calculator cal = new Calculator();
 		 int actual = cal.add(a, b);
+		 
 		 int expected = 9999;
 		 assertEquals (expected,actual);
 	}
