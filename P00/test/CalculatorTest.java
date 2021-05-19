@@ -33,7 +33,7 @@ public class CalculatorTest {
 		 Calculator cal = new Calculator();
 		 int actual = cal.add(a, b);
 		 int expected = 9999;
-		 assertEquals (actual, expected);
+		 assertEquals (expected,actual);
 	}
 	
 	@Test
@@ -44,7 +44,7 @@ public class CalculatorTest {
 		 Calculator cal = new Calculator();
 		 int actual = cal.subtract(a, b);
 		 int expected = 5555;
-		 assertEquals (actual, expected);
+		 assertEquals (expected,actual);
 	}
 	
 	@Test
@@ -55,7 +55,7 @@ public class CalculatorTest {
 		 Calculator cal = new Calculator();
 		 int actual = cal.multiple(a, b);
 		 int expected = 0;
-		 assertEquals (actual, expected);
+		 assertEquals (expected,actual);
 	}
 	@Test
 	public void testDivideWithNon0Denominator () {
@@ -65,7 +65,7 @@ public class CalculatorTest {
 		 Calculator cal = new Calculator();
 		 int actual = cal.divide(a, b);
 		 int expected = 0;
-		 assertEquals (actual, expected);
+		 assertEquals (expected,actual);
 	}
 	
 	@Test
@@ -78,9 +78,9 @@ public class CalculatorTest {
 			 cal.divide(a, b);
 			 fail("Expected an IllegalArgumentException to be thrown");
 			  }catch(IllegalArgumentException e) {
-				  assertEquals(e.getMessage(), "Division by zero is not supported");
+				  assertEquals("Division by zero is not supported", e.getMessage() );
 			  }catch(Throwable t) {
-				  assertEquals(t.getMessage(), "Expected an IllegalArgumentException to be thrown");
+				  assertEquals( "Expected an IllegalArgumentException to be thrown", t.getMessage());
 			  }
 	}
 
