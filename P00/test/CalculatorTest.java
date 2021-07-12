@@ -29,12 +29,12 @@ public class CalculatorTest {
 	public void testAdd() {
 		//fail("Not yet implemented");
 		int a = 1234;
-		int b = 8765;
+		int b = 1234;
 		
 		 Calculator cal = new Calculator();
 		 int actual = cal.add(a, b); //returns 9999
 		 
-		 int expected = 9999;
+		 int expected = 2468;
 		 assertEquals (expected,actual);
 	}
 	
