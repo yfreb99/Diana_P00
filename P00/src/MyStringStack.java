@@ -1,7 +1,7 @@
 import java.lang.IndexOutOfBoundsException;
 import java.util.ArrayList;
 
-public class MyStringStack1 {
+public class MyStringStack {
 private ArrayList<String> v = new ArrayList<String> ();
 	
 	public void push(String newElement){
